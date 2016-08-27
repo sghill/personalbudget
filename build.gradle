@@ -1,0 +1,11 @@
+plugins {
+    id 'nebula.clojure' version '4.0.2'
+}
+
+repositories { jcenter() }
+
+dependencies {
+    compile 'org.clojure:clojure:1.8.0'
+    compile 'org.clojure:data.csv:0.1.3'
+}
+
